@@ -44,6 +44,7 @@ public class ImageMover extends JPanel implements ActionListener {
         frame.setSize(600, 600); // Размер панели
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         frame.setVisible(true);
+        frame.setLocation(420, 20);
     }
 }
 
